@@ -1,0 +1,165 @@
+body
+{
+    margin:0;
+    font-family:'Open Sans',sans-serif;
+    font-size:18px;
+    background-color:black;
+    color:white;
+}
+img
+{
+    max-width:100%;
+}
+#callout
+{
+    text-align:right;
+    color:white;
+    background-color: red;
+    font-size:20px;
+    padding-right:5%;
+}
+#callout:hover{
+    color:black;
+}
+nav ul
+{
+    list-style: none;
+    margin:0;
+    padding-left:50px;
+}
+nav ul li
+{
+    color:white;
+    font-size:25px;
+    float:left;
+    width:15%;
+    border:1px solid white;
+}
+nav ul li a
+{
+    font-weight: 700;
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 5% 12%;
+}
+nav ul li a:hover
+{
+    background-color:red;
+    color:black;
+}
+.grid-container
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+    padding:5px
+}
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 40px;
+}
+.my:hover{
+    color:black;
+}
+.my a:hover{
+    color:grey;
+}
+.history
+{
+    width:55%;
+    float:left;
+    padding:1%;
+}
+.sidebar >img
+{
+    width:40%;
+    height:50%;
+    float:right;
+}
+.part1
+{
+    width:29%;
+    float:left;
+    padding:2%;
+}
+footer
+{
+    text-align: center;
+    float:left;
+    width:100%;
+    padding:2%;
+}
+footer a
+{
+    color:grey;
+    font-size: 450%;
+    padding:3%;
+}
+footer a :hover
+{
+    color:white;
+}
+.social a:hover
+{
+ color:grey;   
+}
+.picture
+{
+    width:1000px;
+    height:200px;
+}
+.picture img{
+width:700px;
+height:100px;
+}
+.meaning
+{
+    width:100%;
+    height:60%;
+}
+.meaning p
+{
+    font-size:100px;
+}
+.meaning p:hover{
+    color:grey;
+}
+h3:hover
+{
+    color:grey;
+}
+.grp >p
+{
+    background-color: red;
+    padding-right:380px;
+    float:right;
+    text-align: center;
+}
+.moon
+{
+    width:80%;
+    height:5%;
+}
+.grp p:hover{
+    color:black;
+}
+@media (max-width: 768px)
+{
+    nav ul
+    {
+        padding-left: 0;
+    }
+    nav ul li
+    {
+        width:100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    nav ul li a 
+    {
+        padding:8px 0;
+        font-size:16px;
+    }
+    }
+}
